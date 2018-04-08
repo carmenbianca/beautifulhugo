@@ -264,11 +264,19 @@ img {
   border-width: 0 1px 1px 1px;
   font-weight: normal;
 }
+
+#navbar-toggle-cbox {
+    display:none
+}
+#navbar-toggle-cbox:checked ~ .collapse {
+    display: block;
+}
+
 @media only screen and (max-width: 767px) {
-  .navbar-custom .nav .navlinks-container.show-children {
+  .navbar-custom .nav .navlinks-container:hover .navlinks-container {
     background: #eee;
   }
-  .navbar-custom .nav .navlinks-container.show-children .navlinks-children {
+  .navbar-custom .nav .navlinks-container:hover .navlinks-children {
     display: block;
   }
 }
