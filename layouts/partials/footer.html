@@ -17,7 +17,7 @@
             {{ if .RSSLink }}
             <a href="{{ .RSSLink }}" title="RSS">
             {{ else }}
-            <a href="{{ .Site.RSSLink }}" title="RSS">
+            <a href="{{ "/index.xml" | absLangURL }}" title="RSS">
             {{ end }}
               RSS
             </a>
