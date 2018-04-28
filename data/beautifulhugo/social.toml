@@ -1,7 +1,7 @@
 [[social_icons]]
 id = "email"
 url = "mailto:%s"
-title = "Email me"
+title = "🖂"
 icon = "fa-envelope"
 
 [[social_icons]]
