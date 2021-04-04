@@ -3,7 +3,7 @@
 body {
   font-family: 'Noto Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 18px;
-  color: #404040;
+  color: #202020;
   position: relative;
   background: #FFF;
   display: flex;
@@ -456,7 +456,7 @@ footer div.disclaimer {
 .post-preview .post-meta,
 .post-heading .post-meta,
 .page-meta {
-  color: #808080;
+  color: #505050;
   font-size: 18px;
   font-style: italic;
   margin: 0 0 10px;
