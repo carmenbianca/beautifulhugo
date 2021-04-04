@@ -3,7 +3,7 @@
 body {
   font-family: 'Noto Sans', sans-serif;
   font-size: 18px;
-  color: #404040;
+  color: #202020;
   position: relative;
   background: #FFF;
   display: flex;
@@ -375,7 +375,7 @@ footer .theme-by {
 .post-preview .post-meta,
 .post-heading .post-meta,
 .page-meta {
-  color: #808080;
+  color: #505050;
   font-size: 18px;
   font-style: italic;
   margin: 0 0 10px;
