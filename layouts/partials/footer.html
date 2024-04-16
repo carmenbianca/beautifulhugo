@@ -55,11 +55,6 @@
           {{ else }}
             {{ .Site.LastChange.Format "2006" }}
           {{ end }}
-
-          {{ if .Site.Title }}
-            &nbsp;&bull;&nbsp;
-            <a href="{{ "" | absLangURL }}">{{ .Site.Title }}</a>
-          {{ end }}
         </p>
         <p class="credits copyright theme-by text-muted">
           {{ i18n "cc-license" . | safeHTML }}
